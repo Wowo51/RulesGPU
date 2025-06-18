@@ -17,5 +17,5 @@ RulesGPU was built with Raven. Raven is an autonomous AI ReAct agent with first 
 [Raven, 10x coder = 1/10 cost.](https://transcendai.tech)</br>
 ![AI Image](RavenTextA.jpg)
 </br>
-Copyright [TranscendAI.tech](https://TranscendAI.tech) 2024.<br>
+Copyright [TranscendAI.tech](https://TranscendAI.tech) 2025.<br>
 Authored by Warren Harding. AI assisted.</br>
