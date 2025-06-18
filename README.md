@@ -10,7 +10,7 @@ Pure C#, no binaries. No dependencies except for Microsoft's unit testing and To
 [Code Description, analyze how the rules engine works.](CodeDescription.md)</br>
 </br>
 RulesGPU is free for non-commercial use, free to test. You need a commercial license to use it commercially. A commercial license is $100 Canadian.</br>
-[Non-commercial license.](NonCommercial.txt)</br>
+[Non-commercial license.](License.txt)</br>
 [Commercial license, purchasing info.](https://transcendai.tech/paylanding.html)</br>
 </br>
 RulesGPU was built with Raven. Raven is an autonomous AI ReAct agent with first class C# code generation support.</br>
