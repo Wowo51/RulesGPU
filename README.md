@@ -15,7 +15,7 @@ RulesGPU is free for non-commercial use, free to test. You need a commercial lic
 </br>
 RulesGPU was built with Raven. Raven is an autonomous AI ReAct agent with first class C# code generation support.</br>
 [Raven, 10x coder = 1/10 cost.](https://transcendai.tech)</br>
-![AI Image](aiimage.jpg)
+![AI Image](RavenTextA.jpg)
 </br>
 Copyright [TranscendAI.tech](https://TranscendAI.tech) 2024.<br>
 Authored by Warren Harding. AI assisted.</br>
