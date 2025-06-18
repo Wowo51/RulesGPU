@@ -1,0 +1,57 @@
+﻿<Window x:Class="RulesGPUApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RulesGPUApp"
+        mc:Ignorable="d"
+        Title="RulesGPU" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <!--  top area -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50"/>
+            <!-- solve button -->
+        </Grid.RowDefinitions>
+
+        <!-- three side-by-side text panes -->
+        <Grid Grid.Row="0" Margin="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Rules (DMN XML) -->
+            <GroupBox Header="DMN Rules" Grid.Column="0">
+                <TextBox x:Name="RulesText"
+                         AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                         TextWrapping="NoWrap"/>
+            </GroupBox>
+
+            <!-- Records -->
+            <GroupBox Header="Records (CSV)" Grid.Column="2">
+                <TextBox x:Name="RecordsText"
+                         AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                         TextWrapping="NoWrap"/>
+            </GroupBox>
+
+            <!-- Output -->
+            <GroupBox Header="Output" Grid.Column="4">
+                <TextBox x:Name="OutputText"
+                         IsReadOnly="True"
+                         AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                         TextWrapping="NoWrap"/>
+            </GroupBox>
+        </Grid>
+
+        <!-- Solve button -->
+        <Button x:Name="SolveButton" Grid.Row="1" Height="50"
+                Content="Solve"
+                HorizontalAlignment="Stretch"
+                FontSize="18"
+                Click="SolveButton_Click"/>
+    </Grid>
+</Window>
